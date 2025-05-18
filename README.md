@@ -31,7 +31,7 @@ Locate to the root folder of the project.
 To run the smart contract, this will intialise the local block chian environment
 
 ```bash
-  yarn hardhat node 
+  yarn hardhat node --hostname 0.0.0.0
 ```
 Now open a new terminal. this will deploy the smart contract in the local block chain i.e in the hardhat environment. you can see the logs in the node terminal
 

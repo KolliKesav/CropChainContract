@@ -1,16 +1,23 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "/home/adithya/Desktop/cropchain-v2.0/contracts/Upload.sol": {
-      "lastModificationDate": 1716027721720,
-      "contentHash": "59641dbd090ecac260ae374dcff929e4",
+    "C:\\Users\\kolli\\OneDrive\\Desktop\\BlockChain\\CropChain\\contracts\\Upload.sol": {
+      "lastModificationDate": 1747547576254,
+      "contentHash": "2472418ec415c954eb308511baadca44",
       "sourceName": "contracts/Upload.sol",
       "solcConfig": {
-        "version": "0.8.19",
+        "version": "0.8.17",
         "settings": {
+          "viaIR": true,
           "optimizer": {
-            "enabled": false,
-            "runs": 200
+            "enabled": true,
+            "runs": 200,
+            "details": {
+              "yul": true,
+              "deduplicate": true,
+              "cse": true,
+              "inliner": true
+            }
           },
           "outputSelection": {
             "*": {

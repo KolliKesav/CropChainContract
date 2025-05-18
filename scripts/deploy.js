@@ -7,19 +7,25 @@
 const hre = require("hardhat");
 
 async function main() {
+  const accounts = await hre.ethers.getSigners();
+  console.log("Available accounts:");
+accounts.forEach((account, index) => {
+  console.log(`${index}: ${account.address}`);
+});
   const upload = await hre.ethers.deployContract("Upload");
 
-  await upload.waitForDeployment();
+  // Replace waitForDeployment() with deployed()
+  //await upload.deployed();
 
   console.log("Upload deployed to ", upload.target);
-  const accounts = await hre.ethers.getSigners();
+
+  
   const deployerAddress = accounts[0].address;
-  console.log("address of the deployer ", deployerAddress);
+  console.log("Address of the deployer: ", deployerAddress);
 }
 
-// We recommend this pattern to be able to use async/await everywhere
-// and properly handle errors.
 main().catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });
+
