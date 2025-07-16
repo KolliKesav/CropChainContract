@@ -9,10 +9,7 @@ Decentralised Pland Disesase detection and solution verification system.This rep
 
 ## 🔗 Links
 
-FrontEnd deployment ->[https://cropchain-ebc27.web.app/ ](https://cropchain-ebc27.web.app/)
-
-
-UI- github->[https://github.com/Adhitya-Vardhan/CropChain-UI ](https://github.com/Adhitya-Vardhan/CropChain-UI)
+UI- github->[https://github.com/KolliKesav/CropChainFrontend ](https://github.com/KolliKesav/CropChainFrontend)
 
 Etherscan Testnet->[https://sepolia.etherscan.io/tx/0x040fea4b8a199911d5639d042280f57f3faec8baf3cddd6150cc3dd8c104da50](https://sepolia.etherscan.io/tx/0x040fea4b8a199911d5639d042280f57f3faec8baf3cddd6150cc3dd8c104da50)
 
